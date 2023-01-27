@@ -22,15 +22,6 @@ header {
     justify-content: space-between;
 }
 
-.menu-toggle {
-    display: none;
-    margin-left: auto;
-    color: aliceblue;
-    line-height: 60px;
-    font-size: 25px;
-    cursor: pointer;
-}
-
 
 .logo {
     margin: 17px 0 0 50px;
@@ -92,22 +83,23 @@ header {
     opacity: 1;
 }
 
+
+
 .nombre {
     margin: 150px;
     color: #fff;
     padding-bottom: 100px;
+    font-family: 'Lora', serif;
     
 }
 
 .nombre h1 {
     font-size: 70px;
-    font-family: 'Kanit', sans-serif;
 }
 
 .nombre span {
     font-size: 45px;
     margin-left: 30px;
-    font-family: 'Source Code Pro', monospace;
 }
 
 .pie-pagina {
