@@ -154,7 +154,7 @@ header {
 
 .box {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     width: 100%;
     height: 400px;
     cursor: pointer;
@@ -164,6 +164,7 @@ header {
     text-align: center;
     font-size: 40px;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .box img {
@@ -171,6 +172,10 @@ header {
     height: 100%;
     border: 3px solid white;
     border-radius: 6px;
+}
+.box:hover >  a img {
+    transform: scale(1.1);
+    transition: all 500ms ease-out;
 }
 
 /*Retratos*/
@@ -196,8 +201,191 @@ header {
     width: 100%;
     height: 100%;
 }
+.foto-retrato img:hover {
+    transform:scale(1.1);
+    transition: all 500ms ease-out;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal-conteiner {
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    max-width: 800px;
+    max-height: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    position: relative;
+}
 
 
+.modal-conteiner img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-conteiner i {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+.modal-conteiner i:hover {
+    color: rgb(202, 0, 0);
+    transition: all 500ms ease-out;
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+}
 
 
 
