@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 .index {
     max-width: 100%;
     max-height: 100%;
-    background-image: url(./imagen.jpg);
+    background-image: url(Media/img/imagen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -187,6 +187,13 @@ header {
     background-color: white;
     font-size: 50px;
     border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.contenedor-retratos span {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
 }
 
 .foto-retrato {
@@ -386,6 +393,267 @@ header {
     pointer-events: unset;
     transition: opacity .6s;
 }
+
+/*Videos*/
+
+.videos h1 {
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.videos span {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenedor-videos h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-videos p {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contenedor-videos video {
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Objetos*/
+
+.objetos h1 {
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.objetos span {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contenedor-objetos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.contenedor-objetos img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-objetos img:hover{
+    transform:scale(1.1);
+    transition: all 500ms ease-out;
+}
+
+
+.modal-conteiner-obj {
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    max-width: 800px;
+    max-height: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+
+.modal-conteiner-obj img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-conteiner-obj i {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+.modal-conteiner-obj i:hover {
+    color: rgb(202, 0, 0);
+    transition: all 500ms ease-out;
+}
+
+
+.modal-obj {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal-obj12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal--show-O {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+}
+
 
 
 
