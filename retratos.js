@@ -168,173 +168,170 @@ closeModal12.addEventListener("click" , (e)=> {
     modal12.classList.remove("modal--show");
 });
 
+const openModal13 = document.querySelector(".img13");
+const modal13 = document.querySelector(".modal13");
+const closeModal13 = document.querySelector("#x13");
 
-//Modal para Objetos.
-
-const openModalObj = document.querySelector(".imagObj");
-const modalObj = document.querySelector(".modal-obj");
-const closeModalObj = document.querySelector("#obj");
-
-openModalObj.addEventListener("click" , (e)=> {
+openModal13.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj.classList.add("modal--show-O");
+    modal13.classList.add("modal--show");
 });
 
-closeModalObj.addEventListener("click" , (e)=> {
+closeModal13.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj.classList.remove("modal--show-O");
+    modal13.classList.remove("modal--show");
 });
 
-const openModalObj2 = document.querySelector(".imagObj2");
-const modalObj2 = document.querySelector(".modal-obj2");
-const closeModalObj2 = document.querySelector("#obj2");
+const openModal14 = document.querySelector(".img14");
+const modal14 = document.querySelector(".modal14");
+const closeModal14 = document.querySelector("#x14");
 
-openModalObj2.addEventListener("click" , (e)=> {
+openModal14.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj2.classList.add("modal--show-O");
+    modal14.classList.add("modal--show");
 });
 
-closeModalObj2.addEventListener("click" , (e)=> {
+closeModal14.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj2.classList.remove("modal--show-O");
+    modal14.classList.remove("modal--show");
 });
 
-const openModalObj3 = document.querySelector(".imagObj3");
-const modalObj3 = document.querySelector(".modal-obj3");
-const closeModalObj3 = document.querySelector("#obj3");
+const openModal15 = document.querySelector(".img15");
+const modal15 = document.querySelector(".modal15");
+const closeModal15 = document.querySelector("#x15");
 
-openModalObj3.addEventListener("click" , (e)=> {
+openModal15.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj3.classList.add("modal--show-O");
+    modal15.classList.add("modal--show");
 });
 
-closeModalObj3.addEventListener("click" , (e)=> {
+closeModal15.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj3.classList.remove("modal--show-O");
+    modal15.classList.remove("modal--show");
 });
 
-const openModalObj4 = document.querySelector(".imagObj4");
-const modalObj4 = document.querySelector(".modal-obj4");
-const closeModalObj4 = document.querySelector("#obj4");
+const openModal16 = document.querySelector(".img16");
+const modal16 = document.querySelector(".modal16");
+const closeModal16 = document.querySelector("#x16");
 
-openModalObj4.addEventListener("click" , (e)=> {
+openModal16.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj4.classList.add("modal--show-O");
+    modal16.classList.add("modal--show");
 });
 
-closeModalObj4.addEventListener("click" , (e)=> {
+closeModal16.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj4.classList.remove("modal--show-O");
+    modal16.classList.remove("modal--show");
 });
 
-const openModalObj5 = document.querySelector(".imagObj5");
-const modalObj5 = document.querySelector(".modal-obj5");
-const closeModalObj5 = document.querySelector("#obj5");
+const openModal17 = document.querySelector(".img17");
+const modal17 = document.querySelector(".modal17");
+const closeModal17 = document.querySelector("#x17");
 
-openModalObj5.addEventListener("click" , (e)=> {
+openModal17.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj5.classList.add("modal--show-O");
+    modal17.classList.add("modal--show");
 });
 
-closeModalObj5.addEventListener("click" , (e)=> {
+closeModal17.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj5.classList.remove("modal--show-O");
+    modal17.classList.remove("modal--show");
 });
 
-const openModalObj6 = document.querySelector(".imagObj6");
-const modalObj6 = document.querySelector(".modal-obj6");
-const closeModalObj6 = document.querySelector("#obj6");
+const openModal18 = document.querySelector(".img18");
+const modal18 = document.querySelector(".modal18");
+const closeModal18 = document.querySelector("#x18");
 
-openModalObj6.addEventListener("click" , (e)=> {
+openModal18.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj6.classList.add("modal--show-O");
+    modal18.classList.add("modal--show");
 });
 
-closeModalObj6.addEventListener("click" , (e)=> {
+closeModal18.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj6.classList.remove("modal--show-O");
+    modal18.classList.remove("modal--show");
 });
 
-const openModalObj7 = document.querySelector(".imagObj7");
-const modalObj7 = document.querySelector(".modal-obj7");
-const closeModalObj7 = document.querySelector("#obj7");
+const openModal19 = document.querySelector(".img19");
+const modal19 = document.querySelector(".modal19");
+const closeModal19 = document.querySelector("#x19");
 
-openModalObj7.addEventListener("click" , (e)=> {
+openModal19.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj7.classList.add("modal--show-O");
+    modal19.classList.add("modal--show");
 });
 
-closeModalObj7.addEventListener("click" , (e)=> {
+closeModal19.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj7.classList.remove("modal--show-O");
+    modal19.classList.remove("modal--show");
 });
 
-const openModalObj8 = document.querySelector(".imagObj8");
-const modalObj8 = document.querySelector(".modal-obj8");
-const closeModalObj8 = document.querySelector("#obj8");
+const openModal20 = document.querySelector(".img20");
+const modal20 = document.querySelector(".modal20");
+const closeModal20 = document.querySelector("#x20");
 
-openModalObj8.addEventListener("click" , (e)=> {
+openModal20.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj8.classList.add("modal--show-O");
+    modal20.classList.add("modal--show");
 });
 
-closeModalObj8.addEventListener("click" , (e)=> {
+closeModal20.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj8.classList.remove("modal--show-O");
+    modal20.classList.remove("modal--show");
 });
 
-const openModalObj9 = document.querySelector(".imagObj9");
-const modalObj9 = document.querySelector(".modal-obj9");
-const closeModalObj9 = document.querySelector("#obj9");
+const openModal21 = document.querySelector(".img21");
+const modal21 = document.querySelector(".modal21");
+const closeModal21 = document.querySelector("#x21");
 
-openModalObj9.addEventListener("click" , (e)=> {
+openModal21.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj9.classList.add("modal--show-O");
+    modal21.classList.add("modal--show");
 });
 
-closeModalObj9.addEventListener("click" , (e)=> {
+closeModal21.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj9.classList.remove("modal--show-O");
+    modal21.classList.remove("modal--show");
 });
 
-const openModalObj10 = document.querySelector(".imagObj10");
-const modalObj10 = document.querySelector(".modal-obj10");
-const closeModalObj10 = document.querySelector("#obj10");
+const openModal22 = document.querySelector(".img22");
+const modal22 = document.querySelector(".modal22");
+const closeModal22 = document.querySelector("#x22");
 
-openModalObj10.addEventListener("click" , (e)=> {
+openModal22.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj10.classList.add("modal--show-O");
+    modal22.classList.add("modal--show");
 });
 
-closeModalObj10.addEventListener("click" , (e)=> {
+closeModal22.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj10.classList.remove("modal--show-O");
+    modal22.classList.remove("modal--show");
 });
 
-const openModalObj11 = document.querySelector(".imagObj11");
-const modalObj11 = document.querySelector(".modal-obj11");
-const closeModalObj11 = document.querySelector("#obj11");
+const openModal23 = document.querySelector(".img23");
+const modal23 = document.querySelector(".modal23");
+const closeModal23 = document.querySelector("#x23");
 
-openModalObj11.addEventListener("click" , (e)=> {
+openModal23.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj11.classList.add("modal--show-O");
+    modal23.classList.add("modal--show");
 });
 
-closeModalObj11.addEventListener("click" , (e)=> {
+closeModal23.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj11.classList.remove("modal--show-O");
+    modal23.classList.remove("modal--show");
 });
 
-const openModalObj12 = document.querySelector(".imagObj12");
-const modalObj12 = document.querySelector(".modal-obj12");
-const closeModalObj12 = document.querySelector("#obj12");
+const openModal24 = document.querySelector(".img24");
+const modal24 = document.querySelector(".modal24");
+const closeModal24 = document.querySelector("#x24");
 
-openModalObj12.addEventListener("click" , (e)=> {
+openModal24.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj12.classList.add("modal--show-O");
+    modal24.classList.add("modal--show");
 });
 
-closeModalObj12.addEventListener("click" , (e)=> {
+closeModal24.addEventListener("click" , (e)=> {
     e.preventDefault();
-    modalObj12.classList.remove("modal--show-O");
+    modal24.classList.remove("modal--show");
 });

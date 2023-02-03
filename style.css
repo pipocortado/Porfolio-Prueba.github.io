@@ -9,7 +9,13 @@ body {
     max-width: 100%;
     max-height: 100%;
     padding: 20px;
+    cursor: url(Media/img/cursor.png), auto;  
 }
+
+a {
+    cursor: url(Media/img/pointer.png), auto;
+}
+
 
 body::-webkit-scrollbar {
     width: 15px;
@@ -24,10 +30,11 @@ body::-webkit-scrollbar-thumb {
 .index {
     max-width: 100%;
     max-height: 100%;
-    background-image: url(Media/img/imagen.jpg);
+    background-image: url(Media/img/imagen.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
+    cursor: url(Media/img/cursor.png), auto;
 }
 
 .index::-webkit-scrollbar {
@@ -120,12 +127,15 @@ header {
 }
 
 .nombre h1 {
+    display: block;
     font-size: 70px;
+    text-align: right;
 }
 
 .nombre span {
+    display: block;
     font-size: 45px;
-    margin-left: 30px;
+    text-align: right;
 }
 
 .pie-pagina {
@@ -157,7 +167,6 @@ header {
     margin-bottom: 150px;
     width: 100%;
     height: 400px;
-    cursor: pointer;
 }
 
 .box h2 {
@@ -172,6 +181,8 @@ header {
     height: 100%;
     border: 3px solid white;
     border-radius: 6px;
+    cursor: pointer;
+    cursor: url(Media/img/pointer.png), auto;
 }
 .box:hover >  a img {
     transform: scale(1.1);
@@ -207,6 +218,7 @@ header {
 .foto-retrato img {
     width: 100%;
     height: 100%;
+    cursor: url(Media/img/pointer.png), auto;
 }
 .foto-retrato img:hover {
     transform:scale(1.1);
@@ -357,18 +369,163 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
+.modal13 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal14 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal17 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal18 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal19 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal20 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal21 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal22 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal23 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal24 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
 
 .modal-conteiner {
     margin: auto;
     width: 90%;
     height: 600px;
-    max-width: 800px;
+    max-width: 450px;
     max-height: 90%;
     background-color: #fff;
     border-radius: 6px;
     border: 2px solid #fff;
     position: relative;
 }
+
 
 
 .modal-conteiner img {
@@ -382,6 +539,7 @@ header {
     font-size: 50px;
     color: red;
     cursor: pointer;
+    cursor: url(Media/img/pointer.png), auto;
 }
 .modal-conteiner i:hover {
     color: rgb(202, 0, 0);
@@ -435,9 +593,9 @@ header {
     margin-bottom: 50px;
 }
 
-/*Objetos*/
+/*Paisajes*/
 
-.objetos h1 {
+.paisajes h1 {
     text-align: center;
     margin-top: 70px;
     text-decoration: none;
@@ -447,13 +605,13 @@ header {
     margin-bottom: 40px;
 }
 
-.objetos span {
+.paisajes span {
     text-align: center;
     color: #fff;
     font-size: 18px;
 }
 
-.contenedor-objetos {
+.contenedor-paisajes {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -461,18 +619,19 @@ header {
     cursor: pointer;
 }
 
-.contenedor-objetos img {
+.contenedor-paisajes img {
     width: 100%;
     height: 100%;
+    cursor: url(Media/img/pointer.png), auto;
 }
 
-.contenedor-objetos img:hover{
+.contenedor-paisajes img:hover{
     transform:scale(1.1);
     transition: all 500ms ease-out;
 }
 
 
-.modal-conteiner-obj {
+.modal-conteiner-pa {
     margin: auto;
     width: 90%;
     height: 600px;
@@ -485,25 +644,26 @@ header {
 }
 
 
-.modal-conteiner-obj img {
+.modal-conteiner-pa img {
     width: 100%;
     height: 100%;
 }
 
-.modal-conteiner-obj i {
+.modal-conteiner-pa i {
     position: absolute;
     top: 0;
     font-size: 50px;
     color: red;
     cursor: pointer;
+    cursor: url(Media/img/pointer.png), auto;
 }
-.modal-conteiner-obj i:hover {
+.modal-conteiner-pa i:hover {
     color: rgb(202, 0, 0);
     transition: all 500ms ease-out;
 }
 
 
-.modal-obj {
+.modal-pa {
     position: fixed;
     top: 0;
     left: 0;
@@ -515,7 +675,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj2 {
+.modal-pa2 {
     position: fixed;
     top: 0;
     left: 0;
@@ -527,7 +687,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj3 {
+.modal-pa3 {
     position: fixed;
     top: 0;
     left: 0;
@@ -539,7 +699,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj4 {
+.modal-pa4 {
     position: fixed;
     top: 0;
     left: 0;
@@ -551,7 +711,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj5 {
+.modal-pa5 {
     position: fixed;
     top: 0;
     left: 0;
@@ -563,7 +723,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj6 {
+.modal-pa6 {
     position: fixed;
     top: 0;
     left: 0;
@@ -575,7 +735,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj7 {
+.modal-pa7 {
     position: fixed;
     top: 0;
     left: 0;
@@ -587,7 +747,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj8 {
+.modal-pa8 {
     position: fixed;
     top: 0;
     left: 0;
@@ -599,43 +759,7 @@ header {
     pointer-events: none;
     transition: opacity .6s;
 }
-.modal-obj9 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #111111bd;
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .6s;
-}
-.modal-obj10 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #111111bd;
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .6s;
-}
-.modal-obj11 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #111111bd;
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .6s;
-}
-.modal-obj12 {
+.modal-pa9 {
     position: fixed;
     top: 0;
     left: 0;
@@ -648,7 +772,8 @@ header {
     transition: opacity .6s;
 }
 
-.modal--show-O {
+
+.modal--show-p {
     opacity: 1;
     pointer-events: unset;
     transition: opacity .6s;
